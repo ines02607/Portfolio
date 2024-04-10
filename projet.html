@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Inès Mazouz</title>
+    <link rel="icon" href="images/logo2.png" type="image">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////
+                              SECTION 1 - Barre de menu 
+/////////////////////////////////////////////////////////////////////////////////////////////-->
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#apropos">A propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#formation">Formation</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#competences">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#projets">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#loisirs">Loisirs</a></li>
+        </ul>
+        <a class="nav-link" href="index.html#contact">
+          <button type="button" class="rounded-pill btn-rounded">
+              Me contacter
+              <span>
+                <i class="fas fa-arrow-right"></i>
+              </span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--================Blog Area =================-->
+    <section class="blog_area" style="margin-top: 10%;">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="blog_center" style="margin-left: 20%;">
+                      <article class="row blog_item" id="projet_java">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <ul class="blog_meta list">
+                                      <li><a>Bac+4<i class="lnr lnr-user"></i></a></li>
+                                      <li><a>Nov.-Fev. 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                      <li><a>Java | LibGDX<i class="lnr lnr-bubble"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                <video id="myVideo" width="400" controls poster="images/portfolio/portfolio-1.png">
+                                  <source src="images/projet/java/demo_java.mp4" type="video/mp4">
+                                </video>
+                                    <div class="blog_details">
+                                      <h2>4A - Jeu Vidéo Donjon & Dragon</h2>
+                                      <p>Voici une courte démonstration du Jeu Vidéo Donjon & Dragons que mon groupe et moi-même avons réalisé en Java avec la librairie LibGDX pour l'interface graphique.
+                                        Ce fut une très belle expérience et mon premier projet dans l'univers des jeux vidéo !
+                                      </p>
+                                      <a href="https://github.com/ines02607/4A_Prj_Jeu_DonjonDragon_Java-LibGDX" target="_blank" class="primary_btn"><span>Voir le code source</span></a>
+                                      <a href="images/projet/java/rapport_jeu_java.pdf" target="_blank" class="primary_btn"><span>Voir le rapport</span></a>
+                                    </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item" id="projet_emargement">
+                        <div class="col-md-3">
+                            <div class="blog_info text-right">
+                                <ul class="blog_meta list">
+                                    <li><a>Bac+4<i class="lnr lnr-user"></i></a></li>
+                                    <li><a>Déc.-Janv. 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                    <li><a>PHP | MySQL<i class="lnr lnr-bubble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="blog_post">
+                              <video id="myVideo" width="400" controls poster="images/portfolio/portfolio-2.png">
+                                <source src="images/projet/prjS7/demo_projetS7.mp4" type="video/mp4">
+                              </video>
+                                  <div class="blog_details">
+                                    <h2>4A - Gestionnaire d'émargement</h2>
+                                    <p>Ce projet avait pour but de faciliter le quotidien du secrétariat Informatique vis-à-vis de l'émargement des étudiants.
+                                      Nous avons suivi diverses étapes, de la réunion de cadrage et d'évaluation du besoin client au livrable final, en passant par les spécifications,
+                                      le <a href="images/projet/prjS7/rapport_projetS7.pdf" target="_blank">dossier de conception</a>, le dossier de test... Ce fut une belle mise en situation qui nous a préparé aux exigences professionnelles !
+                                    </p>
+                                    <a href="https://github.com/ines02607/4A_Prj_Appli_Gestionnaire_Emargement_PHP-MySQL" target="_blank" class="primary_btn"><span>Voir le code source</span></a>
+                                    <a href="images/projet/prjS7/presentation_projetS7.pdf" target="_blank" class="primary_btn"><span>Voir la présentation</span></a>
+                                  </div>
+                            </div>
+                        </div>
+                    </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="#">Food,</a>
+                                      <a class="active" href="#">Technology,</a>
+                                      <a href="#">Politics,</a>
+                                      <a href="#">Lifestyle</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
+                                      <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                      <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                      <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/main-blog/m-blog-3.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a href="single-blog.html"><h2>The Glossary Of Telescopes</h2></a>
+                                      <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+                                      <a href="single-blog.html" class="primary_btn"><span>View More</span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="#">Food,</a>
+                                      <a class="active" href="#">Technology,</a>
+                                      <a href="#">Politics,</a>
+                                      <a href="#">Lifestyle</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
+                                      <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                      <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                      <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/main-blog/m-blog-4.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a href="single-blog.html"><h2>The Night Sky</h2></a>
+                                      <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+                                      <a href="single-blog.html" class="primary_btn"><span>View More</span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="#">Food,</a>
+                                      <a class="active" href="#">Technology,</a>
+                                      <a href="#">Politics,</a>
+                                      <a href="#">Lifestyle</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
+                                      <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                      <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                      <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/main-blog/m-blog-5.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a href="single-blog.html"><h2>Telescopes 101</h2></a>
+                                      <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+                                      <a href="single-blog.html" class="primary_btn"><span>View More</span></a>
+                                  </div>
+                              </div>
+                          </div>
+                        </article>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--================Blog Area =================-->
+  
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
+              START SECTION 8 - GET STARTED  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="contact" class="get-started">
+  <div class="container" style="margin-top: 3%;">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize">Me contacter</h1>
+      <div class="heading-line"></div>
+    </div>
+
+    <!-- START THE CTA CONTENT  -->
+    <div class="row align-items-center" style="margin-top: 2%; background-color: white; border-radius: 25px;">
+      <div class="text-center d-grid mt-1">
+        <a href="mailto:inesmazouz@free.fr">
+          <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3" style="width: 25%;margin-top: 2%;">
+          Par mail <i class="fas fa-paper-plane"></i>
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/inesmazouz" target="_blank">
+          <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3" style="width: 25%;margin-top: 2%;margin-bottom: 2%;">
+          Via Linkedin <i class="fas fa-paper-plane"></i>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                           START SECTION 9 - THE FOOTER  
+///////////////////////////////////////////////////////////////////////////////////////////////-->
+<footer class="footer">
+  <!-- START THE SOCIAL MEDIA CONTENT  -->
+  <div class="footer-sm" style="background-color: #212121;">
+    <div class="container">
+      <div class="row py-4 text-center text-white">
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          Mes réseaux sociaux
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <a href="https://github.com/ines02607" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/inesmazouz" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE COPYRIGHT INFO  -->
+  <div class="footer-bottom pt-5 pb-5">
+    <div class="container">
+      <div class="row text-center text-white">
+        <div class="col-12">
+          <div class="footer-bottom__copyright">
+            Créé en Mars 2024 - Inès Mazouz</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP BUTTON  -->
+<a href="#" class="shadow btn-primary rounded-circle back-to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+   
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'touchNavigation': true,
+        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true',
+      });
+    </script>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+        var video = document.getElementById('myVideo');
+        var videoContainer = document.querySelector('.video-container');
+
+        // Fonction pour démarrer la vidéo lorsqu'on passe dessus
+        function startVideo() {
+          video.play();
+          // Supprimer l'écouteur d'événement une fois que la vidéo a démarré
+          videoContainer.removeEventListener('mouseenter', startVideo);
+        }
+
+        // Ajoute un écouteur d'événement pour démarrer la vidéo lorsque la souris passe dessus
+        videoContainer.addEventListener('mouseenter', startVideo);
+      });
+
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
